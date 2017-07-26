@@ -1,0 +1,95 @@
+.scrollbarY {
+    margin-right:3px;
+    background: linear-gradient(to bottom, #e5e5e5 0%, #f2f2f2 36%, #f9f9f9 100%) repeat scroll 0 0 #e5e5e5;
+    padding:0px;
+    color: #000;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+    border-radius: 4px 4px 4px 4px;
+} 
+.itt_search-module .scrollbarY .thumb {
+    background: url("../../../images/img_web_30/mod_search_650x350/thumb.png") no-repeat scroll 0 50% #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 22px;
+    left: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 8px;
+}
+.scrollbarY .viewport {
+    height: 127px;
+    overflow: hidden;
+    position: relative;
+}
+.scrollbarY .overview {
+    list-style: none;
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    padding: 0; 
+    margin: 0; 
+    width: 100%;
+}
+.scrollbarY .scrollbar { 
+    float: right;
+}
+.scrollbarY .scrollbar { 
+    background: url(../../../images/img_web_30/mod_search_650x350/bg-scroll-area-r2.gif) no-repeat;
+}
+.scrollbarY .track {
+    height: 100%; 
+    width:10px;
+    position: relative;
+}
+.scrollbarY .thumb {
+    background: #fff url(../../../images/img_web_30/mod_search_650x350/thumb.png) no-repeat 0 50%; 
+    height:22px;
+    width:8px; 
+    cursor: pointer; 
+    overflow: hidden; 
+    position: absolute; 
+    top: 0; 
+    left: 1px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+}
+.scrollbarY .disable { 
+    display: none;
+}
+.itt_form-tours .itt_multiple-sel .itt_sel-opt { 
+    padding-top: 2px;
+}
+.itt_pop-up-place .itt_multiple-sel .itt_sel-opt, .itt_multiple-sel .itt_sel-opt { 
+    cursor: pointer; 
+    padding: 1px 0 1px 9px;
+}
+.itt_multiple-sel .itt_sel-optgroup { 
+    background-color: #d8dadb; 
+    color: #999;
+    padding: 2px 0 1px 9px;
+}
+.itt_multiple-sel .scrollbarY .selected { 
+    background-color: #6F6F6F;
+}
+.itt_multiple-sel .scrollbarY .overview { 
+    padding-top: 9px; 
+    left: 0px;
+}
+.scrollbarY .scrollbar { 
+    height: 128px; 
+    background: #919191 repeat-y; 
+    border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;	
+    -moz-border-radius: 0 3px 3px 0;	
+    -khtml-border-radius: 0 3px 3px 0;	
+    -o-border-radius: 0 3px 3px 0;	
+    -ms-border-radius: 0 3px 3px 0;
+    -icab-border-radius: 0 3px 3px 0;
+}
+.scrollbarY .viewport,
+.scrollbarY .viewport {
+    height: 127px;
+}

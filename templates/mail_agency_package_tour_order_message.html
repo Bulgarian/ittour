@@ -1,0 +1,58 @@
+<!DOCTYPE HTML  PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta http-equiv="content-type"  content="text/html;  charset={$charset}" />
+  <title>Заявка на тур в {$country_name}. Турист {$user_first_name} {$user_last_name}.</title>  
+</head>
+<body style="margin:0">
+<table cellpadding="0" border="0" cellspacing="0" style="font:12px  verdana,arial,sans-serif; color:#000" align="center" width="100%">
+  <tr>
+      <td><h1 style="margin:30px 0 30px 20px;pading:0;  font-size:21px; font-weight:Georgia; color:#004c92">Заявка на тур в {$country_name}. Турист {$user_first_name} {$user_last_name}.</h1></td>
+  </tr>
+  <tr>
+    <td>
+      <p style="margin:18px  0 30px 20px;font:14px arial,sans-serif; color:#000">
+        <strong>Информация о туре:</strong><br /><br />
+        <strong>ID тура:</strong> {$tour_id}<br />
+        <strong>Страна</strong>:  {$country_name}<br />
+        <strong>Регион</strong>:  {$region_name}<br />
+        <strong>Город вылета</strong>: {$from_city_name}<br />
+        <strong>Дата</strong>: {$date_from}<br />
+        <strong>Отель</strong>: {$hotel_name} {$hotel_rating_name}*<br />
+        <strong>Номер</strong>: {$room_type_name}<br />
+        <strong>Питание</strong>: {$meal_type_name}<br />
+        <strong>Ночей</strong>: {$duration}<br />
+        <strong>Взрослых</strong>: {$adult_amount}<br />
+        <strong>Детей</strong>: {$child_amount}<br />
+        <strong>Цена</strong>: {$currency}{$price}<br />
+        <strong>Оператор</strong>: {$operator_name}<br />
+        <br /><strong>Информация о выбраном перелете:</strong><br /><br />
+        <strong>Туда</strong>: {$user_flight_to}<br />
+        <strong>Обратно</strong>: {$user_flight_back}<br />
+        <br /><strong>Информация о туристе:</strong><br /><br />
+        <strong>Имя</strong>: {$user_first_name} {$user_last_name} {$user_middle_name}<br />
+        <strong>Город</strong>: {$user_city}<br />
+        <strong>Телефон</strong>: {$user_phone}<br />
+        <strong>Email</strong>: {$user_email}<br />
+        <strong>Коментарий</strong>: {$user_comment}<br />                                     
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td background="{$site_path}images/mail-bg-footer.gif"  style='vertical-align:bottom;  height:65px;background-repeat:repeat-x;'>           
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="20%" align="left">
+            <p style="margin:18px  0 30px 20px;font:14px arial,sans-serif; color:#000"></p>
+          </td>
+          <td width="20%" align="right">
+            <a style="margin:18px 20px 30px 0;" target="_blank" href="{$custom_logo_url}"><img style="border:none;"  src="{$site_path}images/{$custom_mail_logo}"  alt="ittour" /></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

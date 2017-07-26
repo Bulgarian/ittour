@@ -1,0 +1,171 @@
+/*
+example:
+  ["border_exists"]     => ""
+  ["background"]        => "EDFFBA"
+  ["border_color"]      => "94B003"
+  ["tab_background"]    => "F5FFE0"
+  ["font_color"]        => "1E2401"
+  ["title_color"]       => "2F540C"
+  ["button_color"]      => "FFB629"
+  ["link_color"]        => "0820FF"
+  ["language"]          => "6"
+  ["font"]              => "12"
+  ["font_size"]         => "16"
+  ["title_font_size"]   => "28"
+  */
+.itt_bg-color, .chosen-container > a div, 
+.itt_select-head .chosen-container > a div, 
+.itt_multiple-sel .scrollbarY .selected, 
+.itt_select-head .chosen-with-drop a, 
+.itt_select-head .chosen-drop ul, 
+.chosen-container .chosen-drop .highlighted, 
+.itt_advanced-search a > em,
+.itt_col-right .itt_active img 
+{
+    background-color: #<?php echo $border_color; ?> !important;
+}
+.itt_text-color, .itt_select-head .chosen-container .chosen-drop .highlighted, .itt_col-right .itt_active a {
+    color: #<?php echo $border_color; ?>;
+}
+.itt_tab-content, .itt_tab-block .itt_tabset, .itt_search-module .itt_tabset li {
+    background-color: #<?php echo $background; ?> !important;
+}
+#tab-1 .itt_pop-up-place{
+    border-color: #<?php echo $border_color; ?> !important;
+}
+#itt_tour_type_chosen .chosen-drop li.highlighted {
+    color: #<?php echo $border_color; ?> !important;
+}
+#tour_search_module_mod2 .itt_hike_search_result_table tr td{
+    background-color: #<?php echo $background; ?> !important;
+}
+/* add background-color for size 500x170, 300x500, 200x450, 200x775 */
+.itt_form-tours{
+    background-color: #<?php echo $background; ?> !important;
+}
+
+/* fix for stretch mod */
+.itt_bg-color_conten {
+    background-color: #<?php echo $background; ?> !important;
+}
+a.itt_bg-color_conten_border_bottom.is-active {
+    border-bottom: 1px solid #<?php echo $background; ?> !important;
+}
+
+.itt_tour_search_button_with_color {
+    background-color: #<?php echo $button_color; ?> !important;
+    color: #<?php echo $use_white_text_color; ?> !important;
+}
+
+/* Begin custom select color */
+#tour_search_module_mod2 div.itt_custom_select_piptik_small {
+    color: #<?php echo $select_color; ?> !important;
+}
+#tour_search_module_mod2 div.itt_custom_select_piptik_big {
+    background-color: #<?php echo $select_color; ?> !important;
+}
+/* End custom select color */
+
+/* Begin custom color main title */
+#tour_search_module_mod2 .itt_headt_title_color {
+    color: #<?php echo $module2_title_color; ?> !important;
+}
+#tour_search_module_mod2 .itt_search_module_tab_head {
+    color: #<?php echo $module2_title_color; ?> !important;
+}
+#tour_search_module_mod2 .itt_search_module_tab_head a {
+    color: #<?php echo $module2_title_color; ?> !important;
+}
+/* End custom color main title */
+
+/* Begin "calendar" and "child age control" as custom select color */
+#tour_search_module_mod2 ul.itt_search_module_tab li.itt_search_module_tab_head div.itt_search_module_calendar_icons {
+    background-color: #<?php echo $select_color; ?> !important;
+}
+
+#tour_search_module_mod2 span.itt_top_glyphicon_select,
+#tour_search_module_mod2 span.itt_down_glyphicon_select {
+    color: #<?php echo $select_color; ?> !important;
+}
+/* End "calendar" and "child age control" as custom select color */
+
+/* Module search style for result tabs */
+#itt_tabs_search_result {
+    margin: 15px 0px 0px 0px;
+    padding: 0px 5px 0px 5px;
+    border: 0px;
+    display:none;
+}
+#itt_tabs_search_result li.ui-state-default {
+    display: inline;
+    background-color: #<?php echo $background; ?> !important;
+    margin: 2px 2px 0px 2px;
+    padding: 8px 10px 9px 8px;
+    -moz-border-radius: 7px 7px 0px 0px; /* Firefox */
+    -webkit-border-radius: 7px 7px 0px 0px; /* Safari, Chrome */
+    -khtml-border-radius: 7px 7px 0px 0px; /* KHTML */
+    border-radius: 7px 7px 0px 0px; /* CSS3 */
+}
+#itt_tabs_search_result li.ui-state-default.ui-state-active {
+    display: inline;
+    background-color: #<?php echo $border_color; ?> !important;
+}
+#itt_tabs_search_result ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+#itt_tabs_search_result ul.ui-tabs-nav {
+    border-bottom: #<?php echo $border_color; ?> solid 2px;
+    height: 29px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+#itt_tabs_search_result ul.ui-helper-reset {
+    line-height: 1.35 !important;
+}
+#itt_tabs_search_result li .close_current_tab {
+    color: #F1F1F1;
+    cursor: pointer;
+    position: relative;
+    left: 4px;
+    bottom: 7px;
+}
+#itt_tabs_search_result li .close_current_tab,
+#itt_tabs_search_result ul.ui-tabs-nav {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#itt_tabs_search_result ul.ui-tabs-nav li {
+    white-space:nowrap;
+}
+#itt_tour_search_load_item_tour {
+    display: none;
+}
+#itt_tour_search_load_view_item_tab {
+    text-align: center;
+    margin: 20px auto 0;
+    display: none;
+}
+/* for user account */
+div.itt_head-line > .ui-widget-header {
+    background: none;
+}
+
+/* Settins search result */
+#tour_search_module_mod2 div.itt_price_color_in_result_search {
+    color: #<?php echo $price_color; ?> !important;
+}
+#itt_issuing_search_package_tours a.itt_issuing_search_tours_name_link_castom {
+    color: #<?php echo $price_color; ?> !important;
+}
+
+#itt_issuing_search_package_tours a.itt_read_more_button {
+    background: #<?php echo $button_color; ?> !important;
+}
+#itt_issuing_search_package_tours a.itt_read_more_button:hover {
+    background: #<?php echo $button_color; ?> !important;
+}

@@ -1,0 +1,1240 @@
+#tour_search_module_mod2 .itt_tour_view_item {
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-size: 14px;
+  min-width: 630px;
+  max-width: 1800px;
+  margin: 0 auto;
+  color: #141414;
+  padding: 10px;
+  background: #fff;
+}
+#itt_tour_search_module form {
+  float: none !important;
+}
+#itt_tour_search_module dd, #itt_tour_search_module dt {
+  float: none !important;
+  margin: 0 !important;
+  border: inherit !important;
+}
+#tour_search_module_mod2 .itt_tour_view_item a {
+  color: #388cf7 !important;
+  text-decoration: underline !important;
+}
+#tour_search_module_mod2 .itt_tour_view_item a:hover {
+  text-decoration: none !important;
+}
+#tour_search_module_mod2 h2 {
+  float: none !important;
+  width: auto !important;
+}
+/* Map and photo block select START */
+#tour_search_module_mod2 .itt_map_and_photo_block_two {
+  display: none;
+}
+#tour_search_module_mod2 .itt_map_and_photo_block_two,
+#tour_search_module_mod2 .itt_map_and_photo_block_one {
+  position: relative;
+  margin-bottom: 15px;
+}
+#tour_search_module_mod2 .itt_map_and_photo_block_two {
+  padding: 0 12px;
+}
+/* Map and photo block select END */
+
+/* Custom checkbox button START */
+#tour_search_module_mod2 input[type='checkbox'] { 
+  opacity: 0; 
+  position: absolute; 
+  filter: alpha(opacity=0); 
+  margin: 5px 0 0 5px;
+  z-index: 999;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -icab-user-select: none;
+  user-select: none; 
+} 
+ #tour_search_module_mod2 input[type="checkbox"]+label{ 
+  background: url(../../../images/img_web_30/custom_checkbox_buttons.png) left top no-repeat; 
+  position: relative; 
+  margin: 0; 
+  padding: 0 0 0 27px; 
+  cursor: pointer; 
+  display: inline-block; 
+  z-index: 999;
+} 
+#tour_search_module_mod2 input[type="checkbox"]+label { 
+  background-position: 0 0;
+} 
+#tour_search_module_mod2 input[type='checkbox']:checked+label { 
+  background-position:0 -21px;
+} 
+/* Custom checkbox button END */
+.itt_border_rd4 {
+  -webkit-border-radius: 4px; 
+  -moz-border-radius: 4px; 
+  -khtml-border-radius: 4px; 
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -icab-border-radius: 4px;   
+  border-radius: 4px;
+}
+#tour_search_module_mod2 .itt_mtv_top_10 {
+  margin-top: 10px !important;
+}
+#tour_search_module_mod2 .itt_color_yellow {
+  color: #ff9933;   
+}
+#tour_search_module_mod2 .itt_color_white {
+  color: #fff;
+}
+#tour_search_module_mod2 .itt_color_grey {
+  color: #6f6f6f;
+}
+#tour_search_module_mod2 .itt_bg_color_white {
+  background: #fff;
+}
+#tour_search_module_mod2 .itt_mtv_bottom {
+  margin: 10px 0 0 0 !important;
+}
+#tour_search_module_mod2 .itt_color_green {
+  color: #009864 !important;
+}
+#tour_search_module_mod2 .itt_color_blue {
+  color: #388cf7;   
+  margin: 0px !important;
+}
+#tour_search_module_mod2 .itt_color_red {
+  color: #ff5959; 
+}
+#tour_search_module_mod2 .itt_bg_color_blue {
+  background: #388cf7;   
+}
+#tour_search_module_mod2 h2.itt_2h_tittle_tour {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #282828;
+  font-family: 'Arial', Helvetica, sans-serif !important;
+  margin: 0 !important;
+  text-shadow: none !important;
+  text-transform: none !important;
+  font-style: normal !important;
+  letter-spacing: normal !important;
+  text-rendering: auto !important;  
+}
+#tour_search_module_mod2 ul.itt_hotel_rate {
+  clear: both;
+}
+#tour_search_module_mod2 ul.itt_package_star_position {
+  position: relative;
+  top: -4px;
+}
+#tour_search_module_mod2 .itt_hotel_rate li {
+  float: left;
+  margin: 0 7px 7px 0 !important;
+}
+#tour_search_module_mod2 span.itt_location_tour_view {
+  position: relative;
+  top: 5px;
+}
+#tour_search_module_mod2 .itt_photo_left_block {
+  clear: both;
+  width: 260px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+#tour_search_module_mod2 .itt_prew_map {
+  padding: 7px 3px 3px 5px;
+  float: left;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  margin-bottom: 11px;
+}
+#tour_search_module_mod2 .itt_prew_photo {
+  margin: 8px 0 20px 0;
+  padding: 7px 3px 3px 5px;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+}
+#tour_search_module_mod2 .itt_center_content {
+  margin: 0 0 0 0px;
+  padding: 7px;
+}
+#tour_search_module_mod2 .itt_price_block {
+  background: #e3e3e3;
+}
+#tour_search_module_mod2 .itt_price_size {
+  font-size: 25px;
+}
+/* Custom date air START */
+#tour_search_module_mod2 .itt_flight_date_styled_select {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  left: 0;
+  background: url(../../../images/img_web_30/currency_select.png) no-repeat 100% 50% #fff;
+  color: #171717;
+  width: 100%;
+  max-width: 490px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 24px;
+  line-height: 14px !important;
+  padding: 4px 15px 4px 4px;
+  border-radius: 3px;	
+	-webkit-border-radius: 3px;	
+  -moz-border-radius: 3px;	
+  -khtml-border-radius: 3px;	
+  -o-border-radius: 3px;	
+  -ms-border-radius: 3px;
+  -icab-border-radius: 3px;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+#tour_search_module_mod2 .itt_flight_date_styled_select span {
+  color: #9b9b9b;
+}
+#tour_search_module_mod2 .itt_custmon_select_hidden {
+  visibility: hidden;
+}
+#tour_search_module_mod2 ul.itt_flight_date_styled_select_options {
+  display: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 23px;
+  z-index: 999;
+  margin: 0 0;
+  padding: 0 0;
+  color: #343434;
+  background-color: #fff;
+  width: 100%;
+  max-width: 490px;
+}
+#tour_search_module_mod2  ul.itt_flight_date_styled_select_options li {
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  width: 100%;
+  padding: 4px;
+  cursor: pointer;
+  margin: 0;
+}
+#tour_search_module_mod2  ul.itt_flight_date_styled_select_options li:nth-child(even) {
+  background: #F0F0F0;
+}
+#tour_search_module_mod2  ul.itt_flight_date_styled_select_options li:last-child {
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 0 0 3px 3px;	
+}
+#tour_search_module_mod2  ul.itt_flight_date_styled_select_options li:hover {
+  background-color: #C8E1FF;
+}
+#tour_search_module_mod2 .itt_relative_position {
+  position: relative;
+}
+/* Custom date air END */
+
+/* Left block START */
+#tour_search_module_mod2 div.itt_left_colum_width {
+  width: 285px;
+  float: left;
+  clear: both;
+}
+#tour_search_module_mod2 div.itt_left_block_right_media_colum {
+  margin-left: 300px;
+  margin-top: 43px;
+}
+#tour_search_module_mod2 table.itt_select_date_table_two_small_width,
+#tour_search_module_mod2 table.itt_select_date_table_one_big_width {
+  margin-top: 10px;
+  text-align: left;
+  border: 0 !important;
+  clear: none !important;
+  margin-bottom: 0 !important;
+}
+#tour_search_module_mod2 table.itt_select_date_table_one_big_width tr,
+#tour_search_module_mod2 table.itt_select_date_table_two_small_width {
+  height: 25px !important;
+  line-height: 25px !important;
+  text-align: left;
+  width: auto !important;
+}
+#tour_search_module_mod2 table.itt_select_date_table_one_big_width td,
+#tour_search_module_mod2 table.itt_select_date_table_two_small_width td {
+  color: #010103;
+  padding: 0 !important;
+  text-align: left !important;
+  border: 0 !important;
+}
+#tour_search_module_mod2 table.itt_select_date_table_one_big_width td:first-child,
+#tour_search_module_mod2 table.itt_select_date_table_two_small_width td:first-child {
+  width: 110px;
+}
+#tour_search_module_mod2 table.itt_select_date_table_one_big_width td span,
+#tour_search_module_mod2 table.itt_select_date_table_two_small_width td span,
+#tour_search_module_mod2 ul.itt_flight_list li span,
+#tour_search_module_mod2 table.itt_flight_list_two td span {
+  color: #9b9b9b;
+}
+#tour_search_module_mod2 ul.itt_flight_list {
+  margin-bottom: 15px !important;
+}
+#tour_search_module_mod2 ul.itt_flight_list li  {
+  margin-bottom: 3px !important;
+}
+#tour_search_module_mod2 ul.itt_flight_list li select {
+  display: inline-block !important;
+}
+/* Left block END */
+
+/* Right block START */
+#tour_search_module_mod2 div.itt_right_block_max-width {
+  max-width: 320px;
+  float: right;
+  padding-bottom: 10px;
+}
+#tour_search_module_mod2 ul.itt_more_information_about_booking {
+  float: right;
+  margin-top: 10px !important;  
+}
+#tour_search_module_mod2 ul.itt_more_information_about_booking li {
+  display: inline;
+  position: relative;
+}
+/* Right block END */
+
+/* Info tour media START */
+#tour_search_module_mod2 div.itt_info_tour_media_block {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#tour_search_module_mod2 div.itt_info_tour_media_block h2 {
+  float: left !important;
+  width: 100% !important;
+}
+#tour_search_module_mod2 table.itt_select_date_teble_media_margin {
+  margin-left: 15px !important;
+  width: auto !important;
+}
+#tour_search_module_mod2 table.itt_flight_list_two {
+  width: 100%;
+  position: relative;
+  top: 10px;
+  clear: both;
+  text-align: left;
+  border: 0 !important;
+}
+#tour_search_module_mod2 table.itt_flight_list_two tr {
+  height: 31px;
+}
+#tour_search_module_mod2 table.itt_flight_list_two td:first-child span {
+  width: 125px;
+  display: inline-block;
+}
+#tour_search_module_mod2 table.itt_flight_list_two td {
+  padding: 0 !important;
+  text-align: left !important;
+  border: 0 !important;
+}
+/* Info tour media END */
+
+#tour_search_module_mod2 select.itt_select_modp {
+  padding: 2px;
+}
+#tour_search_module_mod2 .itt_select_modx  {
+  margin: 6px 0 0 0;
+}
+#tour_search_module_mod2 .itt_fl_clear {
+  clear: both;
+}
+#tour_search_module_mod2 .itt_icons_question {
+  margin: 7px;
+}
+#tour_search_module_mod2 .itt_tors_attributes {
+  border-top: solid 1px #fff;
+  text-align: right;
+  padding-top: 5px;
+}
+#tour_search_module_mod2 .itt_tors_attributes li {
+  margin-bottom: 10px;
+  padding: 7px 5px;
+}
+#tour_search_module_mod2 .itt_price_info {
+  padding: 5px 5px 0 0 !important;
+  text-align: right;
+  margin-bottom: 5px !important;
+}
+#tour_search_module_mod2 .itt_price_info li {
+  display: inline;
+  margin: 0 5px !important;
+}
+#tour_search_module_mod2 .itt_select_currency select {
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+  color: #666;
+  font-size: 13px;
+  position: relative;
+  z-index: 1;
+  top: -4px;
+  height: 22px;
+  line-height: 22px;
+  display: inline-block;
+}
+#tour_search_module_mod2 .itt_send_btn {
+  width: 100%;
+  height: 35px; 
+  border: 0;
+  line-height: 35px;
+  font-size: 18px !important;
+  outline: none;
+  text-align: center;
+  background: #01c681;
+  font-weight: normal !important;
+  text-transform: none !important;
+  min-height: auto !important;
+  float: none !important;
+  margin: 0;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+#tour_search_module_mod2 .itt_send_btn:hover, 
+#tour_search_module_mod2 button.itt_payment_method_btn:hover {
+  background: #017d52;
+}
+#tour_search_module_mod2 .itt_accordion_tabs {
+  margin: 15px 0 10px 0 !important;
+  width: 100%;
+  color: #444141;
+  font-size: 14px;
+  line-height: 17px;
+  border: 1px solid #e3e3e3;
+}
+#tour_search_module_mod2 .itt_accordion_tabs p {
+  color: rgb(40, 40, 40) !important;
+  text-shadow: none !important;
+  padding: 0 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  margin: 10px 0 !important;
+}
+#tour_search_module_mod2 .itt_accordion_tabs p:first-child {
+  margin: 0 !important;
+}
+#tour_search_module_mod2 .itt_accordion_tabs p strong {
+  font-size: 14px !important;
+}
+#tour_search_module_mod2 .itt_accordion_tabs:before,
+#tour_search_module_mod2 .itt_accordion_tabs:after {
+  content: " ";
+  display: table;
+}
+#tour_search_module_mod2 .itt_accordion_tabs:after {
+  clear: both;
+}
+#tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont a.itt_open_tab {
+  border-top: 1px solid #dddddd;
+  display: block;
+  padding: 0.75em 0.809em !important;
+  width: 150px;
+  text-align: center;
+  font-size: 16px;
+  transition: none !important;
+}
+#tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont a.itt_open_tab:hover {
+  transition: none !important;
+  color: #388cf7 !important;
+}
+#tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont a.itt_open_tab:focus {
+  outline: none;
+}
+#tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont a.itt_open_tab.is-active {
+  background-color: #f7f7f7;
+  border-bottom: 0;
+  text-decoration: none !important;
+  color: #000 !important;
+}
+#tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont section {
+  padding: 1.5em 1.618em;
+  background: #f7f7f7;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  color: #282828;
+} 
+/* Вернуть этот медиа запрос если нужна трансформация таба в анкор ////// @media screen and (min-width: 640px) { /////// */
+  #tour_search_module_mod2 .itt_accordion_tabs {
+    border: none;
+    position: relative;
+  }
+  #tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont {
+    display: inline;
+  }
+  #tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont:last-child a.itt_open_tab {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  #tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont a.itt_open_tab {
+    display: inline-block;
+    vertical-align: baseline;
+    border-top: 0;
+    border-top-right-radius: 0.1875em;
+    border-top-left-radius: 0.1875em;
+  }
+  #tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont a.itt_open_tab.is-active {
+    background-color: #f7f7f7;
+    border: 1px solid #e3e3e3;
+    border-bottom: 1px solid #f7f7f7;
+    margin-bottom: -1px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    z-index: 2;
+  }
+  #tour_search_module_mod2 .itt_accordion_tabs li.itt_tab_head_cont section {
+    border-bottom-left-radius: 0.1875em;
+    border-bottom-right-radius: 0.1875em;
+    border: 1px solid #e3e3e3;
+    float: left;
+    left: 0;
+    padding: 0.75em 0.809em;
+   }
+ /* Вернуть этот медиа запрос если нужна трансформация таба в анкор ////////  } ///// */
+#tour_search_module_mod2 .itt_link_on_description li {
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#tour_search_module_mod2 ul.itt_link_on_description {
+  margin-left: 10px;
+  clear: both;
+}
+#tour_search_module_mod2 .itt_hotel_services li {
+  margin: 6px 0 !important;
+}
+#tour_search_module_mod2 .itt_form_name dd {
+  padding: 6px 0;
+}
+#tour_search_module_mod2 .itt_form_name dt {
+  color: #494949;
+  font-size: 13px;
+}
+#tour_search_module_mod2 dt.itt_last_name_position {
+  position: relative;
+  min-width: 290px;
+}
+#tour_search_module_mod2 .itt_form-name_max_width  {
+  max-width: 330px;
+}
+#tour_search_module_mod2 .itt_pasport_max_width {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+#tour_search_module_mod2 .itt_person_name {
+  padding: 5px;
+  clear: left;
+  margin: 0 9px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #282828;
+}
+#tour_search_module_mod2 .itt_form_name dd input {
+  border-color: #669ff3;
+  text-align: left;
+}
+#tour_search_module_mod2 .itt_form_name dd textarea {
+  border-color: #669ff3; 
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 150px;
+}
+#tour_search_module_mod2 .itt_choice_form select {
+  border: 1px solid #669ff3;
+  outline: none;
+  height: 34px !important;
+  line-height: 1;
+  color: #999999;
+  padding: 6px 12px !important;
+  background-color: #fff !important;
+  font-size: 14px;
+  cursor: pointer;
+}
+#tour_search_module_mod2 ul.itt_muti_placeholder li {
+  display: inline;
+}
+#tour_search_module_mod2 input.itt_form-contro2 {
+  margin: 6px 0 !important;
+  width: 63px !important;
+  display: inline;
+  color: #6c6c6c;
+  font-weight: normal;
+  border-color: #669ff3;
+  text-align: center;
+}
+#tour_search_module_mod2 input.itt_form-contro3 {
+  margin: 6px 0 0 5px !important;
+  width: 133px  !important;
+  display: inline;
+  color: #6c6c6c;
+  font-weight: normal;
+  border-color: #669ff3;
+  text-align: center;
+}
+#tour_search_module_mod2 input.itt_form-contro4 {
+  margin: 6px 0 !important;
+  width: 52px !important;
+  display: inline;
+  color: #6c6c6c;
+  font-weight: normal;
+  border-color: #669ff3;
+  text-align: center;
+}
+#tour_search_module_mod2 input[name="phone_code"],
+#tour_search_module_mod2 input[name="phone"] {
+  text-align: left !important;
+}
+#tour_search_module_mod2 .itt_person2_bg {
+  background: #f3f3f3;
+}
+#tour_search_module_mod2 .itt_add_children {
+  float: left;
+  margin: 7px 0 !important;
+}
+#tour_search_module_mod2 ul.itt_add_children li {
+  margin-right: 10px !important;
+}
+#tour_search_module_mod2 .itt_separat_bottom {
+  border-bottom: 1px solid #e3e3e3;
+}
+#tour_search_module_mod2 .itt_separat_bottom2 {
+  border-bottom: 1px solid #b7b7b7;
+}
+#tour_search_module_mod2 .itt_tb_info > thead > tr > th,
+#tour_search_module_mod2 .itt_tb_info > tbody > tr > th,
+#tour_search_module_mod2 .itt_tb_info > tfoot > tr > th,
+#tour_search_module_mod2 .itt_tb_info > thead > tr > td,
+#tour_search_module_mod2 .itt_tb_info > tbody > tr > td,
+#tour_search_module_mod2 .itt_tb_info > tfoot > tr > td {
+  padding: 5px 10px 5px 0;
+}
+#tour_search_module_mod2.itt_tb_info span {
+  color: #9e9b9b;
+}
+#tour_search_module_mod2 div.itt_hotel_name {
+  font-size: 25px;
+  line-height: 27px;
+  overflow: hidden;
+  float: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 560px;
+  margin-right: 5px;
+}
+#tour_search_module_mod2 div.itt_wifi_icons_position {
+  float: left;
+  font-size: 11px;
+  line-height: 11px;
+  position: relative;
+  top: 2px;
+}
+#tour_search_module_mod2 span.itt_hotel_star {
+  font-size: 25px;
+  line-height: 25px;
+  color: #388cf7;
+}
+#tour_search_module_mod2 div.itt_wifi_icons_position img {
+  position: relative;
+  top: -4px;
+}
+#tour_search_module_mod2 .itt_payment_btn {
+  width: 320px;
+}
+#tour_search_module_mod2 .itt_map_background {
+  width: 260px;
+  background: #fff;
+  margin-top: 10px;
+  margin-left: 35px;
+  margin-right: 30px;
+}
+#tour_search_module_mod2 ul.itt_scroll_photo_list {
+  overflow: hidden;
+  height: 95px;
+  margin: 21px 0 21px 0 !important; 
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);  
+}
+#tour_search_module_mod2 ul.itt_list_item_position {
+  position: relative;
+  width: 130px !important;
+}
+#tour_search_module_mod2 ul.itt_list_item_position_two {
+  position: relative;
+  width: 390px !important;
+}
+#tour_search_module_mod2 ul.itt_scroll_photo_list li {
+  background: #fff !important;
+  padding: 5px;
+  vertical-align: middle;
+  display: table-cell;
+  height: 97px;
+}
+#tour_search_module_mod2 ul.itt_scroll_photo_list li img {
+  max-width: 120px !important;
+  height: 80px !important;
+}
+#tour_search_module_mod2 .itt_scroll_arrow_back {
+  -moz-transform: scaleX(-1); 
+  -o-transform: scaleX(-1); 
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); 
+  filter: FlipH;
+  float: left;
+  position: relative;
+  top: 50px;  
+}
+#tour_search_module_mod2 .itt_scroll_arrow_back,
+#tour_search_module_mod2 .itt_scroll_arrow_go {
+  opacity: 0.2;
+  width: 20px;  
+}
+#tour_search_module_mod2 .itt_scroll_arrow_go {
+  position: relative;
+  top: 50px;
+  float: left;
+}
+#tour_search_module_mod2 div.itt_position_arrow {
+  float: left;
+  margin: 0 20px;
+}
+#tour_search_module_mod2 .itt_scroll_arrow_go:hover,
+#tour_search_module_mod2 .itt_scroll_arrow_back:hover {
+  opacity: 1;
+}
+#tour_search_module_mod2 .itt_info_tourists,
+#tour_search_module_mod2 .itt_info_tourists_online,
+#tour_search_module_mod2 .itt_row_child_item,
+#tour_search_module_mod2 .itt_wrap_text_go_to_main_form,
+#tour_search_module_mod2 .itt_wrap_text_original_button_name,
+#tour_search_module_mod2 .itt_wrap_text_new_button_name,
+#tour_search_module_mod2 .itt_popup_more_information_about_booking
+{
+  display: none;
+}
+#tour_search_module_mod2 .itt_photo_active img {
+  opacity: 0.6;
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  filter: alpha(opacity=60);
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+}
+#tour_search_module_mod2 .itt_open_map_mini {
+  position: absolute;
+  margin: -105px 0 0 0;
+  width: 250px;
+  height: 105px;
+  display: block;
+}
+#tour_search_module_mod2 .itt_open_form_buy_online,.itt_open_form_buy_in_offece {
+  display: block;
+}
+#tour_search_module_mod2 a.itt_btn_add_children_disable {
+  cursor: text;
+  color: #9e9b9b;
+  text-decoration: none;
+}
+#tour_search_module_mod2 span.itt_minus_icons_red {
+  color: #ef6468 !important;
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+#tour_search_module_mod2 span.itt_minus_icons_red:hover {
+  opacity: 0.6;
+}
+#tour_search_module_mod2 .itt_map_small_preview {
+  width: 250px;
+  height: 105px;
+}
+#tour_search_module_mod2 .itt_map_big_preview {
+  width: 100%;
+  height: 600px;
+}
+#tour_search_module_mod2 .itt_flag_counter {
+  width: 33px; 
+  height: 20px; 
+  display: block;
+  border: 2px solid #CCC;
+  background: url(../../../images/img_web_30/flags-web3.png) no-repeat -531px -241px;
+}
+
+/* Формы данных START */
+#tour_search_module_mod2 div.itt_add_person {
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#tour_search_module_mod2 div.itt_add_person > label,
+#tour_search_module_mod2 div.itt_pay_tour_add > label {
+  font-size: 16px;
+  line-height: 18px;    
+}
+#tour_search_module_mod2 div.itt_pay_tour_add {
+  margin-top: 10px;
+}
+#tour_search_module_mod2 .itt_content_pay_block {
+  width: 100%;
+  max-width: 700px;
+}
+#tour_search_module_mod2 div.itt_button_block_width {
+  width: 100%;
+  max-width: 670px;
+}
+#tour_search_module_mod2 a.itt_button_hide_payment_varik {
+  float: right;
+  margin-top: 7px;
+  padding-right: 30px;
+}
+#tour_search_module_mod2 div.itt_send_form_button_position {
+  clear: both;
+  margin-bottom: 15px;
+  position: relative;
+  top: 10px;
+}
+#tour_search_module_mod2 div.itt_send_form_button_position > button {
+  margin: 0 !important;
+}
+#tour_search_module_mod2 div.itt_new_person_block,
+#tour_search_module_mod2 div.itt_content_pay_block  {
+  display: none;
+  clear: both;
+}
+#tour_search_module_mod2 .itt_row_padding {
+  padding: 10px !important;
+  float: left;
+}
+#tour_search_module_mod2 div.itt_form_date_blcok {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+}
+#tour_search_module_mod2 ul.itt_read_the_terms {
+  position: relative;
+  top: 6px;
+  float: right;
+}
+#tour_search_module_mod2 ul.itt_read_the_terms li {
+  display: inline;
+}
+/* Формы данных END */
+
+/* ///// Выбор способа оплаты START ///// */
+#tour_search_module_mod2 div.itt_payment_method_position {
+  padding: 10px 13px;
+}
+#tour_search_module_mod2 div.itt_credit_card_privat {
+  height: 27px;
+  width: 41px;
+  float: left;
+  background: url(../../../images/img_web_30/icons_cart.png) no-repeat 0 0;
+}
+#tour_search_module_mod2 label.itt_payment_method_label_color {
+  color: #6c6c6c;
+  position: relative;
+  top: -2px;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -icab-user-select: none;
+  user-select: none; 
+  cursor: pointer;
+  display: inline-block !important;
+}
+#tour_search_module_mod2 span.itt_payment_method_select_position {
+  margin: 5px 10px !important;
+}
+#tour_search_module_mod2 span.itt_payment_method_select_position input {
+  margin: 3px !important;
+}
+#tour_search_module_mod2 button.itt_payment_method_btn {
+  width: 205px;
+  height: 24px;
+  font-size: 11px;
+  line-height: 11px;
+  border: 0;
+  margin: 4px 0 0 0;
+  outline: none;
+}
+#tour_search_module_mod2 button.itt_payment_method_btn span {
+  margin: 0 10px 0 0;
+  position: relative;
+  top: 1px;
+}
+#tour_search_module_mod2 p.itt_payment_privat_card_description,
+#tour_search_module_mod2 p.itt_payment_otherbank_card_description,
+#tour_search_module_mod2 p.itt_payment_privat24_description {
+  padding: 10px 0 0 0 !important;
+  clear: both;
+  display: none;
+  color: #858585;
+  line-height: 20px !important;
+  text-shadow: none !important;
+}
+#tour_search_module_mod2 p.itt_payment_privat_card_description strong,
+#tour_search_module_mod2 p.itt_payment_otherbank_card_description strong,
+#tour_search_module_mod2 p.itt_payment_privat24_description strong {
+  color: #6c6c6c;
+  font-size: 14px;
+  line-height: 14px;
+}
+#tour_search_module_mod2 div.itt_another_card {
+  height: 27px;
+  width: 41px;
+  float: left;
+  background: url(../../../images/img_web_30/icons_cart.png) no-repeat 0 -27px;
+}
+#tour_search_module_mod2 div.itt_card_privat24 {
+  height: 25px;
+  width: 41px;
+  float: left;
+  background: url(../../../images/img_web_30/icons_cart.png) no-repeat 0 -54px;
+}
+#tour_search_module_mod2 div.itt_webmoney_icons {
+  height: 27px;
+  width: 41px;
+  float: left;
+  background: url(../../../images/img_web_30/icons_cart.png) no-repeat 0 -78px;
+}
+/* ///// Выбор способа оплаты END ///// */
+
+/* Pop up STRAT */
+#tour_search_module_mod2 div.itt_popup_more_information_about_booking {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  color: #1e1e1e;
+  background: #f7f7f7;
+  -webkit-box-shadow: 0px 3px 12px 0px rgba(50, 50, 50, 0.93);
+  -moz-box-shadow: 0px 3px 12px 0px rgba(50, 50, 50, 0.93);
+  box-shadow: 0px 3px 12px 0px rgba(50, 50, 50, 0.93);
+  z-index: 1002;
+  bottom: 99%;
+  margin: 13px auto;
+  right: -12%;
+}
+#tour_search_module_mod2 div.itt_popup_header_bg {
+  background: #01c681;
+  height: 30px;
+  float: left;
+  width: 100%;
+}
+#tour_search_module_mod2 div.itt_popup_header_bg h3 {
+  color: #fff;
+  font-size: 16px;
+  float: left;  
+  margin-left: 9px;
+  margin-top: 8px;
+  letter-spacing: normal !important;
+  font-family: inherit !important;
+  font-weight: normal !important;
+  text-rendering: auto !important;
+  text-transform: none !important;
+  line-height: 1 !important;
+  font-style: normal !important;
+}
+#tour_search_module_mod2 span.itt_close_popup_more_information_about_booking {
+  float: right;
+  color: #FFFFFF;
+  line-height: 30px;
+  font-size: 14px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+#tour_search_module_mod2 span.itt_close_popup_more_information_about_booking:hover {
+  opacity: 0.8;
+}
+#tour_search_module_mod2 span.itt_close_popup_more_information_about_booking:active {
+  position: relative;
+  top: 2px;
+}
+#tour_search_module_mod2 div.itt_popup_content {
+  clear: both;
+  padding: 8px;
+}
+/* Pop up END */
+/* Media START */
+/* old @media screen and (min-width: 1px) and (max-width: 850px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1_and_max_width_850 div.itt_hotel_name {
+  max-width: 213px;
+}
+
+/* old @media screen and (min-width: 850px) and (max-width: 992px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_850_and_max_width_992 div.itt_hotel_name {
+  max-width: 390px;
+}
+
+/* old @media screen and (max-width: 980px) { */
+#tour_search_module_mod2.itt_custom_media_class_max_width_980 .itt_map_big_preview {
+  height: 500px;
+}
+
+/* old @media screen and (max-width: 800px) { */
+#tour_search_module_mod2.itt_custom_media_class_max_width_800 .itt_map_big_preview {
+  height: 400px;
+}
+/* old @media screen and (min-width: 768px) and (max-width: 850px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_768_and_max_width_850 ul.itt_list_item_position {
+  width: 260px !important;  
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_768_and_max_width_850 ul.itt_list_item_position_two {
+  width: 520px !important;
+}
+/* old @media screen and (min-width: 850px) and (max-width: 900px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_850_and_max_width_900 ul.itt_list_item_position {
+  position: relative;
+  width: 390px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_850_and_max_width_900 ul.itt_list_item_position_two {
+  width: 650px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_850_and_max_width_900 .itt_map_background {
+  margin-right: 20px;
+}
+/* old @media screen and (min-width: 900px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_900 ul.itt_list_item_position {
+  position: relative;
+  width: 390px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_900 ul.itt_list_item_position_two {
+  width: 780px !important;
+}
+/* old @media screen and (min-width: 992px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_992 ul.itt_list_item_position {
+  position: relative;
+  width: 520px !important;
+}
+/* old @media screen and (min-width: 1080px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1080 ul.itt_list_item_position_two {
+  width: 910px !important;
+}
+/* old @media screen and (min-width: 1150px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1150 ul.itt_list_item_position {
+  position: relative;
+  width: 650px !important;
+}
+/* old @media screen and (min-width: 1200px) and (max-width: 1300px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1200_and_max_width_1300 ul.itt_list_item_position {
+  position: relative;
+  width: 650px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_1200_and_max_width_1300 ul.itt_list_item_position_two {
+  width: 1040px !important;
+}
+/* old @media screen and (min-width: 1300px) and (max-width: 1400px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1300_and_max_width_1400 ul.itt_list_item_position {
+  position: relative;
+  width: 780px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_1300_and_max_width_1400 ul.itt_list_item_position_two {
+  width: 1170px !important;
+}
+/* old @media screen and (min-width: 1400px) and (max-width: 1550px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1400_and_max_width_1550 ul.itt_list_item_position {
+  position: relative;
+  width: 910px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_1400_and_max_width_1550 ul.itt_list_item_position_two {
+  width: 1170px !important;
+}
+/* old @media screen and (min-width: 1470px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1470 ul.itt_list_item_position_two {
+  width: 1300px !important;
+}
+/* old @media screen and (min-width: 1550px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1550 ul.itt_list_item_position {
+  position: relative;
+  width: 1040px !important;
+}
+/* old @media screen and (min-width: 1600px) and (max-width: 1700px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1600_and_max_width_1700 ul.itt_list_item_position {
+  position: relative;
+  width: 1040px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_1600_and_max_width_1700 ul.itt_list_item_position_two {
+  width: 1430px;
+}
+/* old  @media screen and (min-width: 1700px) and (max-width: 1800px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1700_and_max_width_1800 ul.itt_list_item_position {
+  position: relative;
+  width: 1170px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_1700_and_max_width_1800 ul.itt_list_item_position_two {
+  width: 1560px !important;
+}
+/* old @media screen and (min-width: 1800px) { */
+#tour_search_module_mod2.itt_custom_media_class_min_width_1800 ul.itt_list_item_position {
+  position: relative;
+  width: 1300px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_1800 ul.itt_list_item_position_two {
+  width: 1560px !important;
+}
+#tour_search_module_mod2.itt_custom_media_class_min_width_1800 .itt_map_and_photo_block_two {
+  padding: 0 55px;
+}
+/* Media END */
+
+/* Add css for pop-up with hotel image big */
+div.itt_hotel_image_item_custom_tooltip_view_tour {
+  display: none;
+  top: 0; 
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 138px auto;
+  width: 560px; 
+  height: 400px; 
+}
+div.itt_hotel_image_item_custom_tooltip_view_tour img {
+  -webkit-border-radius: 6px; 
+  -moz-border-radius: 6px; 
+  -khtml-border-radius: 6px; 
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -icab-border-radius: 6px;   
+  border-radius: 6px;
+  border: 3px solid #a1a1a1;
+  max-width: 560px; 
+  max-height: 400px;    
+}
+ul.itt_scroll_photo_list li img:hover{
+  opacity: 0.5;
+}
+
+/* Add position flag for new tour view */
+.itt_flag_counter {
+  width: 33px; 
+  height: 20px; 
+  display: block;
+  border: 2px solid #CCC;
+}
+/* Add class for use Caps */
+.itt_text_transform_capitalize {
+  text-transform: capitalize;
+}
+#tour_search_module_mod2 div.itt_md_info_payment_text {
+  margin: 20px 0 22px 12px;
+  font-style: italic;
+}
+/* Add for validator in view package tour */
+#tour_search_module_mod2 .itt_change_price_flight_symbol, 
+#tour_search_module_mod2 .itt_order_desc_price_change,
+#tour_search_module_mod2 .itt_order_desc_stop_price,
+#tour_search_module_mod2 .itt_order_desc_stop_flight,
+#tour_search_module_mod2 .itt_order_desc_no_validate,
+#tour_search_module_mod2 #itt_tour_order_success_message,
+#tour_search_module_mod2 #itt_tour_send_data_loader,
+#tour_search_module_mod2 #itt_error_buy_in_office,
+#tour_search_module_mod2 #itt_error_buy_online,
+#tour_search_module_mod2 #itt_tour_order_success_message_online,
+#tour_search_module_mod2 #itt_tour_send_data_loader_buy_online 
+{
+  display: none;
+}
+/* Add css for fix blue header form with "+-" */
+#tour_search_module_mod2 .itt_info_tourists_in_office form {
+  float: none;
+}
+
+#tour_search_module_mod2 .itt_mtv_bottom_10 {
+  margin: 10px 0;
+}
+#tour_search_module_mod2 .itt_margin_bottom_10_px {
+  margin-bottom: 10px;
+}
+#tour_search_module_mod2 .itt_form_air_padding {
+  position: relative;
+  top: 0;
+}
+
+/* fix for validate form 'buy all' */
+.itt_red_color_placeholder::-webkit-input-placeholder { color:#ff3300; }
+.itt_red_color_placeholder::-moz-placeholder      { color:#ff3300; }/* Firefox 19+ */
+.itt_red_color_placeholder:-moz-placeholder       { color:#ff3300; }/* Firefox 18- */
+.itt_red_color_placeholder:-ms-input-placeholder    { color:#ff3300; }
+
+#tour_search_module_mod2 .itt_info_tourists_buy_all_form input.error,
+#tour_search_module_mod2 .itt_info_tourists_buy_all_form textarea.error {
+  border: 1px solid #ff3300;
+}
+#tour_search_module_mod2 .itt_info_tourists_buy_all_form input.valid,
+#tour_search_module_mod2 .itt_info_tourists_buy_all_form textarea.valid {
+  border: 1px solid #669ff3;
+}
+#tour_search_module_mod2 .itt_for_beautiful_end_form_buy_all {
+  margin: 0 auto;
+  padding: 15px 5px 15px 5px;
+  text-align: center;
+}
+#tour_search_module_mod2 div.itt_more_info_about_the_tour {
+  margin: 10px 0 20px 0;
+}
+#tour_search_module_mod2 div.itt_more_info_about_the_tour span {
+  font-weight: bold !important;
+}
+
+/* add captcha */
+#tour_search_module_mod2 .itt_captcha_wrap_main {
+ margin-top: 6px !important;
+ margin-bottom: 3px !important;
+}
+#tour_search_module_mod2 .itt_captcha_wrap_1 {
+  float: left;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+#tour_search_module_mod2 .itt_captcha_wrap_2 {
+  float: left;
+  padding: 2px 0px 0px 0px;
+  margin: 0px 0px 0px 15px;
+}
+#tour_search_module_mod2 .itt_captcha_wrap_3 {
+  float: left;
+  padding: 8px 0px 0px 0px;
+  margin: 0px 0px 0px 18px;
+}
+#tour_search_module_mod2 input.itt_captcha_input {
+  width: 145px !important;
+  text-align: left !important;
+}
+#tour_search_module_mod2 input.itt_captcha_input:focus {
+  text-align: left !important;
+}
+#tour_search_module_mod2 img.itt_captcha_refresh:hover {
+  cursor: pointer !important;
+}
+#tour_search_module_mod2 .itt_error_msg_from_server {
+  display: none;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FF3300 !important;
+  margin: 17px 0px 5px 0px !important;
+  padding: 0px 0px 0px 0px !important;
+}
